@@ -1,0 +1,24 @@
+{
+  "name": "health_care_service",
+  "version": "1.0.0",
+  "description": "Health Care Service ChatBot to Book a Lab Test and Find a Doctor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "async": "^2.6.0",
+    "botkit-middleware-watson": "^1.7.0",
+    "cloudant": "^1.10.0",
+    "deasync": "^0.1.12",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "nodemailer": "^4.4.1",
+    "socket.io": "^2.0.4",
+    "watson-developer-cloud": "^3.0.3"
+  }
+}
